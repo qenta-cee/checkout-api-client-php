@@ -1,0 +1,33 @@
+{
+  "name": "wirecard/checkout-api-client",
+  "description": "Client for Wirecard Checkout API",
+  "minimum-stability": "stable",
+  "license": "LGPL-2.0",
+  "support": {
+    "email": "support.at@wirecard.com",
+    "wiki": "https://guides.wirecard.com",
+    "issues": "https://www.github.com/wirecard/checkout-api-client-php/issues"
+  },
+  "require": {
+    "zendframework/zend-modulemanager": "2.2.*",
+    "zendframework/zend-servicemanager": "2.2.*",
+    "zendframework/zend-loader": "2.2.*",
+    "zendframework/zend-http": "2.2.*",
+    "zendframework/zend-json": "2.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WirecardCheckoutApiClient\\": "src/"
+    }
+
+  },
+  "scripts": {
+    "test": "phpunit -c phpunit.xml",
+    "test-reports": "phpunit -c phpunit.xml --coverage-html reports/coverage --coverage-clover reports/clover.xml --coverage-crap4j reports/crap4j.xml --log-junit reports/junit.xml",
+    "cs-check": "phpcs src",
+    "cs-fix": "phpcbf src"
+  }
+}

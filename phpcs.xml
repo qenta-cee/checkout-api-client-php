@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset>
+    <description>PSR1 Coding standard</description>
+    <rule ref="PSR1"/>
+    <description>PSR2 Coding standard</description>
+    <rule ref="PSR2"/>
+</ruleset>

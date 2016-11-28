@@ -1,0 +1,15 @@
+<phpunit bootstrap="vendor/autoload.php" colors="false">
+    <testsuites>
+        <testsuite name="WirecardCheckoutApiClient Unit TestSuite">
+            <directory suffix="UTest.php">test/</directory>
+        </testsuite>
+        <testsuite name="WirecardCheckoutApiClient Integration TestSuite">
+            <directory suffix="ITest.php">test/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
