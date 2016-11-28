@@ -1,5 +1,8 @@
-# Checkout Api Client module
-Module for checkout api client specific implementations. For example communication with rest api.
+# Checkout Api Client
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wirecard/checkout-api-client-php/blob/master/LICENSE)
+[![PHP v5.6](https://img.shields.io/badge/php-5.6-yellow.svg)](http://www.php.net)
+
+Checkout api client specific implementations in PHP. For example communication with rest api.
 
 ## Installation:
 `composer install` installs all required dependencies

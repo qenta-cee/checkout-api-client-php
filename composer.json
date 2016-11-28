@@ -22,7 +22,6 @@
     "psr-4": {
       "WirecardCheckoutApiClient\\": "src/"
     }
-
   },
   "scripts": {
     "test": "phpunit -c phpunit.xml",
