@@ -5,19 +5,19 @@
 Checkout API client specific implementations in PHP. For example communication with REST API.
 
 ## Installation:
-`composer install` installs all required dependencies
+`composer install` installs all required dependencies.
 
 ## Coding Standards:
-Code in this module should follow the coding standards defined in PSR-1 and PSR-2 (http://www.php-fig.org/psr/)
+Code in this module should follow the coding standards defined in PSR-1 and PSR-2 (http://www.php-fig.org/psr/).
 
 ## Project structure
 For the instantiation of objects Zend\ServiceManager is used. Zend\ServiceManager can be replaced by the service manager or dependency injection of your choice.
 
 ### PHPCS
-`composer cs-check` checks for fulfillment of coding standards
-`composer cs-fix` fixes code according to coding standards
+`composer cs-check` checks for fulfillment of coding standards.
+`composer cs-fix` fixes code according to coding standards.
 
 ## Test suites:
 ### PHPUnit
-`composer test` runs full testsuite
-`composer test-reports` runs full testsuite and creates coverage reports
+`composer test` runs full testsuite.
+`composer test-reports` runs full testsuite and creates coverage reports.
