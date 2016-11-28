@@ -1,5 +1,5 @@
 # Checkout Api Client
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wirecard/checkout-api-client-php/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://github.com/wirecard/checkout-api-client-php/blob/master/LICENSE)
 [![PHP v5.6](https://img.shields.io/badge/php-5.6-yellow.svg)](http://www.php.net)
 
 Checkout api client specific implementations in PHP. For example communication with rest api.
