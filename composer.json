@@ -2,7 +2,7 @@
   "name": "wirecard/checkout-api-client",
   "description": "Client for Wirecard Checkout API",
   "minimum-stability": "stable",
-  "license": "LGPL-2.0",
+  "license": "GPL-2.0",
   "support": {
     "email": "support.at@wirecard.com",
     "wiki": "https://guides.wirecard.com",
